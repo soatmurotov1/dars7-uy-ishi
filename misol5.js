@@ -17,12 +17,16 @@ const database ={
     },
     create(user){
         this.studendsList[user.name] = user
-        console.log(this.studendsList);
+        // console.log(this.studendsList);
         
         // yangi userni studentsListga qushsin va studentsListni qaytarib bersin
 
     },
     read(name){
+        // console.log(this.studendsList.abrorbek);
+        console.log(this.studendsList.name);
+        
+        
         // userni studentsListdan topib qaytarib bersin
 
     },
